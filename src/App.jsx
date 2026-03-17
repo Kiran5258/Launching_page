@@ -101,6 +101,22 @@ export default function App() {
                     Explore Services <ArrowRight className="w-5 h-5" />
                   </a>
                 </motion.div>
+                <motion.div
+                  variants={fadeIn}
+                  className="mt-6 flex items-center gap-3 justify-center lg:justify-start"
+                >
+                  <a
+                    href="https://www.instagram.com/gigiman_official?igsh=b2t0OTVkZncydGxh"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 px-5 py-2 rounded-full bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 text-white font-medium hover:scale-105 transition-transform"
+                  >
+                    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M7.75 2h8.5C19.216 2 22 4.784 22 7.75v8.5C22 19.216 19.216 22 16.25 22h-8.5C4.784 22 2 19.216 2 16.25v-8.5C2 4.784 4.784 2 7.75 2zm0 1.5A4.25 4.25 0 003.5 7.75v8.5A4.25 4.25 0 007.75 20.5h8.5a4.25 4.25 0 004.25-4.25v-8.5A4.25 4.25 0 0016.25 3.5h-8.5zM12 7a5 5 0 110 10 5 5 0 010-10zm0 1.5a3.5 3.5 0 100 7 3.5 3.5 0 000-7zm4.75-2.25a1.25 1.25 0 110 2.5 1.25 1.25 0 010-2.5z" />
+                    </svg>
+                    Follow us on Instagram
+                  </a>
+                </motion.div>
 
                 <motion.div variants={fadeIn} className="mt-12 flex items-center justify-center lg:justify-start gap-4 text-sm text-slate-500">
                   <div className="flex -space-x-2">
