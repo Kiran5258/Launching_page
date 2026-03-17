@@ -112,7 +112,6 @@ export default function App() {
                   </div>
                   <div>
                     <p className="flex items-center text-amber-400"><Star className="w-4 h-4 fill-current" /> <Star className="w-4 h-4 fill-current" /> <Star className="w-4 h-4 fill-current" /> <Star className="w-4 h-4 fill-current" /> <Star className="w-4 h-4 fill-current" /></p>
-                    <p>Trusted by 10,000+ users</p>
                   </div>
                 </motion.div>
               </motion.div>
