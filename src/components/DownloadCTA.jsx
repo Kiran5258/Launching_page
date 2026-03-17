@@ -26,18 +26,20 @@ export default function DownloadCTA() {
       />
       
       {/* The main button */}
-      <motion.button
+      <motion.a
+        href="/Gigiman_userapp.apk"
+        download="Gigiman_userapp.apk"
         whileHover={{ scale: 1.02 }}
         whileTap={{ scale: 0.98 }}
-        className="relative flex items-center gap-3 px-8 py-4 rounded-full bg-gradient-to-r from-[#4F46E5] to-[#06B6D4] text-white font-semibold text-lg shadow-[0_8px_20px_rgba(79,70,229,0.3)] hover:shadow-[0_12px_25px_rgba(6,182,212,0.5)] transition-all duration-300 z-10 overflow-hidden"
+        className="relative flex items-center gap-3 px-8 py-4 rounded-full bg-gradient-to-r from-[#4F46E5] to-[#06B6D4] text-white font-semibold text-lg shadow-[0_8px_20px_rgba(79,70,229,0.3)] hover:shadow-[0_12px_25px_rgba(6,182,212,0.5)] transition-all duration-300 z-10 overflow-hidden cursor-pointer"
       >
         {/* Subtle shimmer effect */}
         <div className="absolute inset-0 -translate-x-full group-hover:animate-[shimmer_1.5s_infinite] bg-gradient-to-r from-transparent via-white/20 to-transparent pointer-events-none" />
         
         <PlayStoreIcon className="w-6 h-6" />
-        <span className="tracking-wide">Download Gigiman User App</span>
+        <span className="tracking-wide">Download Gigiman App</span>
         <Download className="w-5 h-5 ml-1 transition-transform duration-300 group-hover:-translate-y-1" />
-      </motion.button>
+      </motion.a>
     </div>
   );
 }

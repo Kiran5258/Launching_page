@@ -6,6 +6,7 @@ import {
   Wrench, Thermometer, Car, Star
 } from 'lucide-react';
 import DownloadCTA from './components/DownloadCTA';
+import logo from './assets/logo.png';
 
 const fadeIn = {
   hidden: { opacity: 0, y: 20 },
@@ -29,12 +30,9 @@ export default function App() {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-slate-900/80 backdrop-blur-md border-b border-white/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
-            <div className="flex items-center gap-2">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-cyan-400 flex items-center justify-center shadow-lg shadow-indigo-500/20">
-                <Star className="w-6 h-6 text-white" />
-              </div>
-              <span className="text-2xl font-bold tracking-tight">Gigiman</span>
-            </div>
+            <a href="#home" className="flex items-center gap-2 outline-none">
+              <img src={logo} alt="Gigiman Logo" className="h-10 sm:h-12 w-auto object-contain" />
+            </a>
 
             <div className="hidden md:flex items-center gap-8">
               <a href="#home" className="text-slate-300 hover:text-white transition-colors">Home</a>
@@ -353,10 +351,7 @@ export default function App() {
           <div className="grid md:grid-cols-4 gap-12 mb-16">
             <div className="col-span-1 md:col-span-2">
               <div className="flex items-center gap-2 mb-6">
-                <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-indigo-500 to-cyan-400 flex items-center justify-center">
-                  <Star className="w-5 h-5 text-white" />
-                </div>
-                <span className="text-xl font-bold tracking-tight">Gigiman</span>
+                <img src={logo} alt="Gigiman Logo" className="h-10 sm:h-12 w-auto object-contain" />
               </div>
               <p className="text-slate-400 max-w-sm mb-6">The trusted platforms connecting you with reliable service professionals. Book on-demand or schedule for later.</p>
               <a href="mailto:gigiman2310@gmail.com" className="text-slate-300 hover:text-cyan-400 transition-colors">gigiman2310@gmail.com</a>
