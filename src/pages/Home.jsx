@@ -386,8 +386,8 @@ export default function Home() {
             <div>
               <h4 className="font-semibold text-white mb-6">Legal</h4>
               <ul className="space-y-4">
-                <li><Link to="/user-privacy" className="text-slate-400 hover:text-white transition-colors">Privacy Policy</Link></li>
-                <li><Link to="/user-terms" className="text-slate-400 hover:text-white transition-colors">Terms & Conditions</Link></li>
+                <li><Link to="/privacy-policy" className="text-slate-400 hover:text-white transition-colors">Privacy Policy</Link></li>
+                <li><Link to="/terms" className="text-slate-400 hover:text-white transition-colors">Terms & Conditions</Link></li>
                 <li><Link to="/pro-terms" className="text-slate-400 hover:text-white transition-colors">Professional Terms</Link></li>
                 <li><Link to="/pro-privacy" className="text-slate-400 hover:text-white transition-colors">Professional Privacy</Link></li>
                 <li><Link to="/refund-policy" className="text-slate-400 hover:text-white transition-colors">Refund Policy</Link></li>
