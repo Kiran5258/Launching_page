@@ -18,8 +18,8 @@ export default function App() {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/user-terms" element={<UserTerms />} />
-        <Route path="/user-privacy" element={<UserPrivacy />} />
+        <Route path="/terms" element={<UserTerms />} />
+        <Route path="/privacy-policy" element={<UserPrivacy />} />
         <Route path="/pro-terms" element={<ProTerms />} />
         <Route path="/pro-privacy" element={<ProPrivacy />} />
         <Route path="/refund-policy" element={<RefundPolicy />} />
